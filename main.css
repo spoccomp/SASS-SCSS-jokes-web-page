@@ -1,0 +1,57 @@
+.text {
+  color: yellow;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: roboto;
+  margin: auto;
+  display: flex;
+  align-content: center !Important; }
+
+.hero {
+  background-image: url("/Users/macuser/Documents/NYCode+DesignAcademy/0820WorkshopSassy/tractor1.jpeg");
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  background-position: center; }
+
+.midtractor {
+  background-image: url("/Users/macuser/Documents/NYCode+DesignAcademy/0820WorkshopSassy/tractor2.jpeg");
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  background-position: center; }
+
+.lastractor {
+  background-image: url("/Users/macuser/Documents/NYCode+DesignAcademy/0820WorkshopSassy/tractor3.jpeg");
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  background-position: center; }
+
+.herotext {
+  font-size: 30px;
+  font-family: roboto;
+  color: green;
+  font-weight: 800;
+  margin-top: 5px; }
+
+.ul, form, footer {
+  font-family: roboto;
+  color: green;
+  font-weight: 650; }
+
+.ul {
+  font-size: 25px !Important;
+  font-weight: 450; }
+
+.inputStuff {
+  border: 2px solid black; }
+
+.inputStuff {
+  width: 10%;
+  background-color: aquamarine; }
+
+/*# sourceMappingURL=main.css.map */

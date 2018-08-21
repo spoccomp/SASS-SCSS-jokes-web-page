@@ -1,0 +1,57 @@
+$font-family: roboto;
+$fc:green;
+$fcy: yellow;
+
+@mixin tractorimage($image){
+    background-image: url($image);
+    background-repeat: no-repeat;
+    // width:500px;
+    height:500px;
+    margin: auto;
+    display: flex;
+    background-position: center; 
+}
+
+.text{
+    color:$fcy;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: $font-family;
+    margin:auto;
+    display: flex;
+    align-content: center !Important;
+    
+}
+.hero{
+@include tractorimage("/Users/macuser/Documents/NYCode+DesignAcademy/0820WorkshopSassy/tractor1.jpeg")
+}
+.midtractor{
+    @include tractorimage("/Users/macuser/Documents/NYCode+DesignAcademy/0820WorkshopSassy/tractor2.jpeg");  
+}
+.lastractor{
+    @include tractorimage("/Users/macuser/Documents/NYCode+DesignAcademy/0820WorkshopSassy/tractor3.jpeg");
+}
+.herotext{
+    font-size: 30px;
+    font-family: $font-family;
+    color: $fc;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.ul, form, footer{
+    font-family: $font-family;
+    color: $fc;
+    font-weight: 650;
+
+}
+.ul{
+    font-size: 25px !Important;
+    font-weight: 450;
+}
+.inputStuff{
+    border: 2px solid black;
+}
+.inputStuff{
+    width: 10%;
+    background-color: aquamarine;
+}
